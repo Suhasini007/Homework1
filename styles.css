@@ -1,0 +1,133 @@
+* {
+    font-family: 'Pacifico', cursive;
+}
+
+h1{
+    background-color: rgb(7, 2, 7);
+    color: rgb(132, 177, 197);
+    padding: 20px;
+    text-align: center;
+    margin-top: 90px;
+}
+.paragraph1 {
+    background-color: rgb(250, 127, 189);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    
+}
+
+.paragraph2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 254, 34);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.paragraph3 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 166, 252);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.paragraph4 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 35, 234);
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+.container1 {
+    background-color: rgb(0, 0, 0) ;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 550px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 3s;
+
+}
+.container1 :hover{
+    background-color: rgb(19, 14, 14) ;
+    margin-top: 30px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #ecc0e4;
+    color: rgb(194, 67, 88);
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    font-size: 10.5px;
+}
+
+.footer a {
+    color: rgb(24, 12, 12);
+    text-decoration: none;
+    transition: color 2.5ms;
+}
+
+.footer a:hover {
+    color: #12c6f3;
+}
+
+nav{
+    background-color: black;
+    color: #f5eaea;
+    padding: 40px;
+    position: fixed;
+    width:100%;
+    top:0%;
+}
+
+.nav-h1,.nav-li,.nav-ul{
+    display: inline;
+}
+.nav-ul{
+    margin-left: 30%;
+}
+.nav-li{
+    padding: 20px;
+
+}
+.na-li:hover{
+    background-color: #eee7ec;
+}
+.nav-link{
+    color: rgb(243, 245, 239);
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 70px;
+    margin-bottom: 1px;
+    padding: 20px;
+    background-color: #4aec6d;
+}
+.card{
+    width: calc(25%-20px);
+    margin: 2%;
+    
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(79, 197, 206);
+    color: rgb(3, 5, 0);
+}
+.card img{
+    width: 100%;
+    height: 180px;
+
+}
